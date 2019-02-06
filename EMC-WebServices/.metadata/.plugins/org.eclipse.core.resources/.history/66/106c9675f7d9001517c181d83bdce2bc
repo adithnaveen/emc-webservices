@@ -1,0 +1,12 @@
+package emc.port;
+
+import javax.jws.WebParam;
+import javax.jws.WebService;
+
+import emc.entity.Product;
+
+@WebService(targetNamespace="http://mybasket.vinod.co/products", 
+		name="products")
+public interface ProductServicePort {
+	public Product getProductById(@WebParam(name="id")int id);
+}

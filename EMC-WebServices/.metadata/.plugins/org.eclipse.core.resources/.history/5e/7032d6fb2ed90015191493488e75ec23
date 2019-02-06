@@ -1,0 +1,9 @@
+package com.naveen;
+
+public interface ISample {
+
+	public abstract void hi();
+
+	public abstract void bye();
+
+}

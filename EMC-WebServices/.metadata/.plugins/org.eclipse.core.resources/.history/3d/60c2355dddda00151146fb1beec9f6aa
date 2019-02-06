@@ -1,0 +1,26 @@
+package com.emc.service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.emc.entity.Message;
+
+public class MessageService {
+	Map<Long, Message> messages = new HashMap<Long, Message>();
+	
+	public MessageService(){
+		System.out.println("Constructor invoked for Message Service... ");
+
+		Message m1 = new Message();
+		m1.setMessageId(101);
+		m1.setMsg("Hello There");
+		m1.setAuthor("Nitish");
+		Message m1 = new Message();
+		m1.setMessageId(101);
+		m1.setMsg("Hello There");
+		m1.setAuthor("Nitish");
+		
+		
+	}
+	
+}

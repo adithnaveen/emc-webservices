@@ -1,0 +1,14 @@
+package com.emc.timeserver;
+
+import javax.xml.ws.Endpoint;
+
+public class TimeServerPublish {
+	public static void main(String[] args) {
+		String publishAddress = "http://127.0.0.1:9876/nav";
+		Endpoint.publish(publishAddress, new TimeServerImpl());
+		
+		System.out.println("Publish on " + publishAddress);
+		System.out.println("WSDL -> " + publishAddress+"WSDL");
+		System.out.println("Published Successfully... ");
+	}
+}

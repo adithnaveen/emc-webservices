@@ -1,0 +1,28 @@
+package emc.jaxb;
+
+import java.io.File;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.Marshaller;
+
+// program to store java object to XML file 
+public class JAXBToXML {
+	public static void main(String[] args) {
+		Customer cust = new Customer();
+		cust.setId(101);
+		cust.setName("Kanchn");
+		cust.setAge(16);
+		
+		File file = new File("/Volues/Naveen/JAXBCustomer.xml");
+		JAXBContext jaxbContext = JAXBContext.newInstance(Customer.class);
+		
+		Marshaller jaxbMarshaller = jaxbContext.createMarshaller();
+		
+		// Pretty 
+		jaxbMarshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+		
+		
+		
+		
+	}
+}

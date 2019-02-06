@@ -1,0 +1,27 @@
+package emc.entity;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlType;
+import javax.xml.ws.ServiceMode;
+
+@XmlType(name="Product")
+@XmlAccessorType(XmlAccessType.FIELD)
+public class Product {
+	private int id;
+	private String category;
+	private String name;
+	private String brand;
+	private String description;
+	
+	@XmlElement(name="quantity_per_unit")
+	private String quantityPerUnit;
+	
+	@XmlElement(name="unit_price")
+	private double unitPrice;
+	
+	private String picture;
+	private double discount;
+	
+}

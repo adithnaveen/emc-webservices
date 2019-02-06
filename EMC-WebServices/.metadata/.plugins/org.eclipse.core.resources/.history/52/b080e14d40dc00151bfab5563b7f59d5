@@ -1,0 +1,86 @@
+package com.emc.resource;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.Response;
+
+import com.emc.entity.Category;
+import com.emc.entity.Product;
+import com.emc.exception.DAOException;
+import com.emc.service.ProductDAOImpl;
+
+@Path("/categories")
+public class CategoryResource {
+
+	private ProductDAOImpl dao;
+
+	@PostConstruct
+	public void init() {
+		dao = new ProductDAOImpl();
+	}
+
+	@GET
+	@Produces({ "application/xml", "application/json" })
+	public List<Category> getAllCategories() throws DAOException {
+		return dao.getAllCategory();
+
+	}
+
+	@Path("/{id}")
+	@GET
+	@Produces({ "application/xml", "application/json" })
+	public Category getCategoryById(@PathParam("id") int id)
+			throws DAOException {
+		return dao.getCategory(id);
+	}
+	
+
+	@Path("/{id}/products")
+	@GET
+	@Produces({ "application/xml", "application/json" })
+	public List<Product> getProductsByCategory(
+			@PathParam("id") int id) throws DAOException{
+		
+		List<Product> list = new ArrayList<>();
+		list.addAll(dao.getCategory(id).getProducts());
+		return list;
+	}
+	
+	
+	@GET
+	@Path(("/{id}/picture"))
+	public Response getCategoryPicture(){
+		
+	}
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" version="2.0">
+	
+	<!-- http://localhost:8888/ws-soap/service/product -->
+	<!-- each end point correspond to one PortType/Interface -->
+	<endpoint name="ep1"
+				implementation="com.emc.ProductCatalog"
+				url-pattern="/service/product"/>
+</endpoints>

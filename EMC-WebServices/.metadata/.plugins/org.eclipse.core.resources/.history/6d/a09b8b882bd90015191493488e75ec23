@@ -1,0 +1,12 @@
+package com.emc.client;
+
+import com.emc.tempservice.TempConvert;
+import com.emc.tempservice.TempConvertSoap;
+
+public class TemparatureConvert02 {
+	public static void main(String[] args) {
+		TempConvert convert = ;
+		
+		TempConvertSoap convertSoap = new TempConvert().getTempConvertSoap();
+	}
+}

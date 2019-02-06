@@ -1,0 +1,8 @@
+package com.emc.ws;
+
+import javax.jws.WebService;
+
+@WebService(endpointInterface="com.emc.ws.HelloUserAuth")
+public class HelloUserImpl implements HelloUserAuth{
+	
+}

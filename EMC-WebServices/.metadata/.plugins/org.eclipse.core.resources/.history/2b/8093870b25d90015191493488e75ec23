@@ -1,0 +1,7 @@
+package com.emc.client;
+
+public class GeoIPClient01 {
+	public static void main(String[] args) {
+		
+	}
+}

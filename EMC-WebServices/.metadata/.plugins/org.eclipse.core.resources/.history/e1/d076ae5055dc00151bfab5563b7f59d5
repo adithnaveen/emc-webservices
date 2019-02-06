@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+
+<script type="text/javascript" src="jquery-1.12.1.js"></script>
+
+<script type="text/javascript">
+	// ananymous function it gets called implicitly 
+	$(function(){
+		var options ={
+			url:"http://localhost:8080/Rest-Work1/resources/product",
+			method:"GET", 
+			dataType:"json", 
+			success: function(data){
+				var list = $("<ul>");
+				
+				data.forEach(function(d){
+							
+				
+				
+				})
+				}
+			};
+		$.ajax(options);
+	});
+</script>
+
+
+</head>
+<body>
+	<h1>Category Details</h1>
+
+	<div id="productList"></div>
+</body>
+
+
+</html>

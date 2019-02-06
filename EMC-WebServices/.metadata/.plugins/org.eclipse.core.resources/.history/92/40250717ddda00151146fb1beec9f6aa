@@ -1,0 +1,5 @@
+package com.emc.service;
+
+public class MessageService {
+
+}

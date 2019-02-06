@@ -1,0 +1,20 @@
+package com.emc.client;
+
+import com.emc.tempservice.TempConvert;
+import com.emc.tempservice.TempConvertSoap;
+import com.emc.timeserver.TimeServer;
+import com.emc.timeserver.TimeServerService;
+
+public class TimeServer03 {
+	public static void main(String[] args) {
+		TimeServerService timeSoap;
+		timeSoap = new TimeServerService();
+		
+		TimeServer server = timeSoap.getTimeServicePort();
+				
+		System.out.println("Time On Server is " + server.getTimeAsString());
+		System.out.println("Ticket Price From BLR to DEL : " + 
+				server.getTicketFare("blr", "del"));
+		System.out.println("Ticket Price From BLR to DEL : " + server.getTicketFare("blr", "del"));
+	}
+}

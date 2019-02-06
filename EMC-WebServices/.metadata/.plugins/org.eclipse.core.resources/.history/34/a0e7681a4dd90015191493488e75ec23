@@ -1,0 +1,17 @@
+package com.emc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.jws.WebService;
+
+import com.emc.businesslogic.ProductCatalogImpl;
+
+@WebService
+public class ProductCatalog {
+	
+	ProductCatalogImpl productCatalog = new ProductCatalogImpl();
+	public List<String> getProducts(){
+		returnproductCatalog.getProducts();
+	}
+}

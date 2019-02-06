@@ -1,0 +1,5 @@
+package emc.service;
+
+public class PicturePublisher {
+
+}

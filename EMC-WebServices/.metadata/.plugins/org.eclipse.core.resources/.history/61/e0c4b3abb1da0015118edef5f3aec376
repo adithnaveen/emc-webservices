@@ -1,0 +1,28 @@
+package emc.jaxb2;
+
+import java.util.ArrayList;
+
+public class BookMain {
+	public static void main(String[] args) {
+		ArrayList<Book> booklist = new ArrayList<Book>();
+		
+		Book b1 = new Book();
+		b1.setIsbn("12112");
+		b1.setName("Let US C");
+		b1.setAuthor("Yahwanth Kanetkar");
+		b1.setPublisher("WILEY");
+		
+		Book b2  = new Book();
+		b2.setIsbn("222333");
+		b2.setName("Complete Reference Java");
+		b2.setAuthor("Naughton");
+		b2.setPublisher("Pearson");
+		
+		
+		BookStore bookStore = new BookStore();
+		bookStore.setName("Sapna Book Store");
+		bookStore.setLocation("Bengaluru");
+		
+		
+	}
+}

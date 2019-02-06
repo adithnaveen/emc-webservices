@@ -1,0 +1,13 @@
+package com.emc;
+
+import java.util.List;
+
+import javax.jws.WebService;
+
+@WebService
+public class ProductCatalog {
+	
+	public List<String> getProducts(){
+		
+	}
+}

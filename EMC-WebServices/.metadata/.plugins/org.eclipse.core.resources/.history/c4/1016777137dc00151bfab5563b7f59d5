@@ -1,0 +1,31 @@
+package com.emc.resource;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+import com.emc.entity.Category;
+import com.emc.exception.DAOException;
+import com.emc.service.ProductDAOImpl;
+
+@Path("/categories")
+public class CategoryResource {
+
+	private ProductDAOImpl dao;
+
+	@PostConstruct
+	public void init() {
+		dao = new ProductDAOImpl();
+	}
+
+	@GET
+	@Produces({ "application/xml", "application/json" })
+	public List<Category> getAllCategories() throws DAOException {
+			List<Category> list = dao.getAllCategory();
+			return list;
+	}
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<script type="text/javascript" src="jquery-1.12.1.js"></script>
+
+<script type="text/javascript">
+	// ananymous function it gets called implicitly 
+	$(function(){
+		var options ={
+			url:"http://localhost:8080/Rest-Work1/resources/categories",
+			method:"GET", 
+			dataType:"json", 
+			success: function(data){
+
+
+				var table = $("<table border='1'>");
+					console.log("Testing... 1");
+					data.forEach(function(d){
+						console.log(d);
+						var row =	$("<tr>");
+						var td1 =$("<td>").append(d.categoryName);
+						var img =$("<img>").attr("src", "http://localhost:8080/Rest-Work1/resources/categories/"+d.categoryId+"/picture");
+						var td2 = $("<td>").append(img);
+						row.append(td1).append(td2);
+						table.append(row);
+						});
+					
+						$("#categoryList").html(table);
+					}
+			}
+			}
+			
+		$.ajax(options);
+	})
+</script>
+
+
+</head>
+<body>
+	<h1>Category Details</h1>
+
+	<div id="categoryList"></div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+package emc.jaxb2;
+
+public class BookMain2 {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,35 @@
+package com.emc.timeserver;
+
+import java.util.Date;
+
+import javax.jws.WebService;
+
+@WebService(
+		endpointInterface="com.emc.TimeServerService",
+		name="TimeServicePort",
+		portName="TimeServicePort",
+		
+		)
+public class TimeServerImpl implements TimeServer {
+
+	@Override
+	public String getTimeAsString() {
+		return "Time is : " + new Date().toString();
+	}
+
+	@Override
+	public String getTimeFromServer() {
+		return "Time is " + new Date();
+	}
+
+	@Override
+	public String getTicketFare(String src, String dest) {
+		if(src.equalsIgnoreCase("blr") && dest.equalsIgnoreCase("del")){
+			// you can connect to DB to get this information
+			return "Ticket Fare is " + 20000;
+		}
+		
+		return "Details not found for " + src +", " + dest;
+	}
+	
+}

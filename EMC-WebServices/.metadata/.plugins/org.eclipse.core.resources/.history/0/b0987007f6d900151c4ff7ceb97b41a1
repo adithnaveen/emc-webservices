@@ -1,0 +1,16 @@
+package com.emc.client;
+
+import java.net.URL;
+
+public class GetOneProduct {
+	public static void main(String[] args) {
+		String wsdl ="http://mybasket.vinod.co/products?wsdl";
+		String tns = "http://mybasket.vinod.co/products";
+		String serviceName ="products";
+		
+		
+		URL url = new URL(wsdl);
+		
+		
+	}
+}

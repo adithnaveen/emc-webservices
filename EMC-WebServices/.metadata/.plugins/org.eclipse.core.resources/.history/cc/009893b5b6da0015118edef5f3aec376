@@ -1,0 +1,11 @@
+package emc.jaxb2;
+
+import javax.xml.bind.JAXBContext;
+
+public class BookMain2 {
+	public static void main(String[] args) {
+		System.out.println("Output from the file.. ");
+		
+		JAXBContext jaxbContext = JAXBContext.newInstance(BookStore.class);
+	}
+}

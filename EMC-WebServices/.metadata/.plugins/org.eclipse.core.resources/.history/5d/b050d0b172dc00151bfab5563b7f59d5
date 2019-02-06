@@ -1,0 +1,6 @@
+package com.emc.resource;
+
+
+public class MessageResource {
+
+}

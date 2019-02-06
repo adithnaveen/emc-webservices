@@ -1,0 +1,9 @@
+package emc.service;
+
+import javax.jws.WebService;
+
+import emc.model.Picture;
+
+@WebServicepublic interface PictureService {
+	public Picture getPicture(String shortName);
+}

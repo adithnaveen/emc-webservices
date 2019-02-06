@@ -1,0 +1,17 @@
+package emc.jaxb2;
+
+import java.util.ArrayList;
+
+import javax.xml.bind.annotation.XmlElement;
+
+
+public class BookStore {
+
+	@XmlElement(name="booklist")
+	private ArrayList<Book> bookList;
+	private String name;
+	private String location;
+	private double price;
+	
+	
+}

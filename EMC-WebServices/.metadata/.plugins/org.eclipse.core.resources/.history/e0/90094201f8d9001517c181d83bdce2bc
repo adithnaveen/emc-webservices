@@ -1,0 +1,25 @@
+package com.emc.client;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
+
+public class GetOneProduct {
+	public static void main(String[] args) throws MalformedURLException {
+		String wsdl ="http://mybasket.vinod.co/products?wsdl";
+		String tns = "http://mybasket.vinod.co/products";
+		String serviceName ="products";
+		
+		
+		URL url = new URL(wsdl);
+		
+		QName qname = new QName(tns, serviceName);
+		
+		Service service = Service.create(url, qname);
+		
+		
+		
+	}
+}

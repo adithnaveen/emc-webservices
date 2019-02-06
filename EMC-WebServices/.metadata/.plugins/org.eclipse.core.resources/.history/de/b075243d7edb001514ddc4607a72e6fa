@@ -1,0 +1,8 @@
+package com.emc.interfaces;
+
+public interface ProductDAO {
+	// CRUD 
+		
+	
+	// Queries we need 
+}

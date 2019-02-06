@@ -1,0 +1,7 @@
+package emc.service;
+
+public class PicturePublisher {
+	public static void main(String[] args) {
+		
+	}
+}

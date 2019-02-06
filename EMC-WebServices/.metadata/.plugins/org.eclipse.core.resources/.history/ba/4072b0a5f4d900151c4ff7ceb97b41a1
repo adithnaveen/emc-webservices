@@ -1,0 +1,5 @@
+package emc.entity;
+
+public class Product {
+	
+}

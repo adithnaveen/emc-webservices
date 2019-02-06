@@ -1,0 +1,10 @@
+package emc.service;
+
+import javax.jws.WebService;
+import javax.xml.ws.soap.MTOM;
+
+@WebService
+@MTOM
+public class PictureServiceImpl implements PictureService{
+
+}

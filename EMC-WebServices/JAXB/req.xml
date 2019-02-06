@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body>
+		<ns1:getOneProductResponse xmlns:ns1="http://mybasket.vinod.co/products">
+			<Product>
+				<id>26</id>
+				<category>vegitable</category>
+				<name>Methi</name>
+				<brand>Malnad</brand>
+				<description>Fresh methi</description>
+				<quantity_per_unit>200 GM</quantity_per_unit>
+				<unit_price>29</unit_price>
+				<picture>http://mybasket.vinod.co/images/10000388_9-fresho-methi.jpg
+				</picture>
+				<discount>17</discount>
+			</Product>
+		</ns1:getOneProductResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

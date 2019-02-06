@@ -1,0 +1,5 @@
+package com.emc.timeserver;
+
+public class TimeServerImpl implements TimeServer {
+	
+}

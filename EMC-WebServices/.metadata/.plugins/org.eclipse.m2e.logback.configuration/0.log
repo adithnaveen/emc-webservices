@@ -1,0 +1,281 @@
+2016-02-22 15:23:42,265 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2016-02-22 15:23:42,321 [main] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:52227
+2016-02-22 19:44:22,444 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/wse,null}
+2016-02-23 08:19:05,228 [main] INFO  org.eclipse.jetty.server.Server - jetty-8.1.16.v20140903
+2016-02-23 08:19:05,287 [main] INFO  o.e.jetty.server.AbstractConnector - Started SelectChannelConnector@0.0.0.0:58420
+2016-02-23 11:12:47,234 [Framework stop] INFO  o.e.j.server.handler.ContextHandler - stopped o.e.j.s.ServletContextHandler{/wse,null}
+2016-02-26 15:33:54,114 [Worker-157] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.springrestful:SpringRESTfull:0.0.1-SNAPSHOT @ /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/pom.xml.
+2016-02-26 15:33:55,557 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:33:55,569 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:33:55,573 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:33:55,574 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:33:55,639 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringRESTfull/src
+2016-02-26 15:33:55,640 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringRESTfull/src/test/java because it overlaps with /SpringRESTfull/src
+2016-02-26 15:33:55,895 [Worker-146] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.springrestful:SpringRESTfull:0.0.1-SNAPSHOT @ /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/pom.xml.
+2016-02-26 15:33:55,958 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:33:55,959 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:33:55,963 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:33:55,963 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:33:56,425 [Worker-157] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2016-02-26 15:33:56,455 [Worker-157] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.springrestful:SpringRESTfull:0.0.1-SNAPSHOT @ /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/pom.xml.
+2016-02-26 15:33:56,597 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringRESTfull/src
+2016-02-26 15:33:56,597 [Worker-157] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringRESTfull/src/test/java because it overlaps with /SpringRESTfull/src
+2016-02-26 15:33:56,850 [Worker-157] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.springrestful:SpringRESTfull:0.0.1-SNAPSHOT @ /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/pom.xml.
+2016-02-26 15:33:56,929 [Worker-157] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringRESTfull
+2016-02-26 15:33:56,978 [Worker-157] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2016-02-26 15:33:57,107 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:33:57,108 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:33:57,110 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:33:57,110 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:35:22,003 [Worker-153] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.springrestful:SpringRESTfull:0.0.1-SNAPSHOT @ /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/pom.xml.
+2016-02-26 15:35:22,322 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:35:22,325 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:35:22,327 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:35:22,328 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:35:22,328 [Worker-153] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringRESTfull
+2016-02-26 15:35:22,330 [Worker-153] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringRESTfull
+2016-02-26 15:35:22,356 [Worker-153] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:44:12,959 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:44:12,960 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:44:12,962 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:44:12,963 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:44:42,756 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:44:42,758 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:44:42,760 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:44:42,760 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:45:59,548 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:45:59,552 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:45:59,555 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:45:59,556 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:48:10,971 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:10,972 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:48:10,973 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:10,974 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:48:13,662 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:13,663 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:48:13,665 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:13,665 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:48:17,922 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:17,922 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:48:17,924 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:17,924 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:48:21,863 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:21,864 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:48:21,866 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:21,867 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:48:26,054 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:26,055 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:48:26,057 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:26,057 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:48:28,124 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:28,128 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:48:28,130 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:48:28,131 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:49:51,997 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:49:51,998 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:49:51,999 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:49:51,999 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:49:54,726 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:49:54,727 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:49:54,729 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:49:54,730 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:49:58,444 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:49:58,445 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:49:58,451 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:49:58,452 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:50:52,989 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:50:52,991 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:50:52,993 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:50:52,993 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:51:13,790 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:51:13,792 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:51:13,793 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:51:13,793 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:51:17,912 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:51:17,914 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:51:17,915 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:51:17,916 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:51:27,361 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:51:27,362 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:51:27,364 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:51:27,366 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:51:48,253 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:51:48,253 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:51:48,255 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:51:48,255 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:51:50,310 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:51:50,312 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:51:50,313 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:51:50,314 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:52:15,335 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:15,335 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:52:15,336 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:15,336 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:52:16,418 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:16,418 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:52:16,420 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:16,420 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:52:40,302 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:40,302 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:52:40,303 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:40,304 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:52:41,352 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:41,353 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:52:41,354 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:41,355 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:52:42,420 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:42,421 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:52:42,422 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:42,423 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:52:53,183 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:53,184 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:52:53,185 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:52:53,186 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:53:20,358 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:53:20,359 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:53:20,360 [Worker-161] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:53:20,361 [Worker-161] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:53:32,041 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:53:32,042 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:53:32,043 [Worker-155] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:53:32,044 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:53:47,941 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:53:47,942 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:53:47,943 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:53:47,943 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:54:46,442 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:54:46,443 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:54:46,444 [Worker-165] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:54:46,444 [Worker-165] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:55:04,355 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:55:04,356 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:55:04,357 [Worker-163] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:55:04,358 [Worker-163] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 15:57:37,832 [Worker-167] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:57:37,833 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 15:57:37,834 [Worker-167] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 15:57:37,835 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:04:22,145 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:04:22,146 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:04:22,147 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:04:22,148 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:04:25,268 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:04:25,269 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:04:25,270 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:04:25,271 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:04:50,835 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:04:50,836 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:04:50,837 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:04:50,838 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:05:02,418 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:05:02,419 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:05:02,419 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:05:02,420 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:05:04,454 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:05:04,454 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:05:04,456 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:05:04,456 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:05:15,278 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:05:15,279 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:05:15,281 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:05:15,282 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:06:18,372 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:06:18,372 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:06:18,374 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:06:18,375 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:07:10,256 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:07:10,257 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:07:10,258 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:07:10,259 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:07:20,057 [Worker-167] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:07:20,058 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:07:20,059 [Worker-167] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:07:20,059 [Worker-167] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:08:04,310 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:08:04,311 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:08:04,312 [Worker-147] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:08:04,313 [Worker-147] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:08:14,540 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:08:14,540 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:08:14,541 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:08:14,542 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:08:39,817 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:08:39,817 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:08:39,819 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:08:39,819 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:09:08,528 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:09:08,529 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:09:08,530 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:09:08,530 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:09:11,867 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:09:11,867 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:09:11,868 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:09:11,869 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:09:35,656 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:09:35,657 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:09:35,658 [Worker-160] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:09:35,659 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:09:44,956 [Worker-171] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:09:44,956 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:09:44,957 [Worker-171] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:09:44,957 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:10:04,273 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:10:04,273 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:10:04,274 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:10:04,275 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:10:41,899 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:10:41,899 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:10:41,900 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:10:41,900 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:10:50,789 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:10:50,790 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:10:50,791 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:10:50,792 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:13:08,701 [Worker-168] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:08,701 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:13:08,703 [Worker-168] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:08,703 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:13:14,358 [Worker-168] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:14,358 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:13:14,359 [Worker-168] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:14,359 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:13:21,134 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:21,134 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:13:21,135 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:21,135 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:13:25,155 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:25,156 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:13:25,157 [Worker-174] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:25,157 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:13:54,431 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:54,432 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:13:54,433 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:54,433 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:13:58,223 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:58,224 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:13:58,225 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:13:58,226 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:14:18,011 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:14:18,012 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:14:18,013 [Worker-172] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:14:18,013 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:14:29,856 [Worker-168] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:14:29,857 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:14:29,858 [Worker-168] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:14:29,859 [Worker-168] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:14:44,041 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:14:44,042 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:14:44,043 [Worker-173] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:14:44,044 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:15:30,896 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:15:30,897 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:15:30,898 [Worker-164] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:15:30,899 [Worker-164] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-26 16:17:05,708 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:17:05,709 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-26 16:17:05,710 [Worker-169] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-26 16:17:05,710 [Worker-169] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources
+2016-02-27 23:28:12,264 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 23:28:12,272 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/main/resources
+2016-02-27 23:28:12,276 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2016-02-27 23:28:12,277 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/naveenkumar/Documents/EMC-WebServices/SpringRESTfull/src/test/resources

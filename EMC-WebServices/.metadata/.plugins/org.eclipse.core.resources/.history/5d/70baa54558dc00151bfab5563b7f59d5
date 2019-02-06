@@ -1,0 +1,22 @@
+package com.emc;
+
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.client.WebTarget;
+import javax.ws.rs.core.Response;
+
+public class Proguram01 {
+	public static void main(String[] args) {
+		Client client = ClientBuilder.newClient();
+		
+		String url="http://localhost:8080/Rest-Work1/resources/message";
+		
+		WebTarget target = client.target(url);
+		
+		Response resp = target.request("application/json").get();
+		
+		
+		
+		
+	}
+}

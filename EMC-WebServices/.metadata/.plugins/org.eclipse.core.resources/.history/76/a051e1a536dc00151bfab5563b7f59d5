@@ -1,0 +1,18 @@
+package com.emc.resource;
+
+import javax.annotation.PostConstruct;
+import javax.ws.rs.Path;
+
+import com.emc.service.ProductDAOImpl;
+
+
+@Path("/categories")
+public class CategoryResource {
+
+	private ProductDAOImpl dao;
+
+	@PostConstruct
+	public void init() {
+		dao = new ProductDAOImpl();
+	}
+}

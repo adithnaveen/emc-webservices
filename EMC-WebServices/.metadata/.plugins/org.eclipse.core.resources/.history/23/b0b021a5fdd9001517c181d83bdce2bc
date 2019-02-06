@@ -1,0 +1,23 @@
+package com.emc.ws;
+
+import java.util.Map;
+
+import javax.annotation.Resource;
+import javax.jws.WebService;
+import javax.xml.ws.WebServiceContext;
+import javax.xml.ws.handler.MessageContext;
+
+@WebService(endpointInterface="com.emc.ws.HelloUserAuth")
+public class HelloUserImpl implements HelloUserAuth{
+
+	@Resource
+	WebServiceContext wsctx;
+	
+	@Override
+	public String getMyWork() {
+		MessageContext mctx  = wsctx.getMessageContext();
+		
+		Map http_headers = mctx.get(MessageContext.HTTP_REQUEST_HEADERS);
+	}
+	
+}

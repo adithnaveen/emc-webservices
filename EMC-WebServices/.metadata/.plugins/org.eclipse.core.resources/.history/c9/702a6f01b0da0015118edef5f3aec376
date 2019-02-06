@@ -1,0 +1,17 @@
+package emc.jaxb2;
+
+import javax.xml.bind.annotation.XmlRootElement;
+import javax.xml.bind.annotation.XmlType;
+
+@XmlRootElement(name="books")
+// it is possible for us to store / change the order in which the 
+// elements in xml are formed 
+// optional 
+@XmlType(propOrder={"isbn", "name", "author", "publisher"})
+public class Book {
+	private String name;
+	private String author;
+	private String publisher;
+	private String isbn;
+	
+}

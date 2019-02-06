@@ -1,0 +1,18 @@
+package emc.jaxb;
+
+import java.io.File;
+
+// program to store java object to XML file 
+public class JAXBToXML {
+	public static void main(String[] args) {
+		Customer cust = new Customer();
+		cust.setId(101);
+		cust.setName("Kanchn");
+		cust.setAge(16);
+		
+		File file = new File("/Volues/Naveen/JAXBCustomer.xml");
+		
+		
+		
+	}
+}

@@ -1,0 +1,11 @@
+package com.jaxm;
+
+import java.io.FileOutputStream;
+
+public class SAAJ_Client {
+	public static void main(String[] args) {
+		FileOutputStream file = new FileOutputStream("req.xml");
+		
+		
+	}
+}

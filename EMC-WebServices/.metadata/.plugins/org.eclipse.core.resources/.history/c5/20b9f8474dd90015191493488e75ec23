@@ -1,0 +1,17 @@
+package com.emc.businesslogic;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductCatalogImpl {
+	List<String> list = new ArrayList<String>();
+
+	public List<String> getProducts(){
+		// this should come from DB 
+		list.add("Laptop");
+		list.add("Chair");
+		list.add("Bottle");
+		
+		return list;
+	}
+}

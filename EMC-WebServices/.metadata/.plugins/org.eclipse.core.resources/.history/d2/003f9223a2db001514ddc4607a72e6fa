@@ -1,0 +1,132 @@
+package com.emc.service;
+
+import java.util.List;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+
+import com.emc.entity.Category;
+import com.emc.entity.Product;
+import com.emc.exception.DAOException;
+import com.emc.interfaces.ProductDAO;
+
+public class ProductDAOImpl implements ProductDAO {
+	private Session getSession() {
+		return new Configuration().configure().buildSessionFactory()
+				.openSession();
+	}
+
+	@Override
+	public void addProduct(Product product) throws DAOException {
+
+		try {
+			Session session = getSession();
+			session.beginTransaction();
+			
+			try {
+				session.save(product);
+				session.getTransaction().commit();
+			} catch (HibernateException e) {
+				session.getTransaction().rollback();
+				throw new DAOException(e);
+			}
+			
+			session.close();
+		} catch (HibernateException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+
+	@Override
+	public Product getOneProduct(int productId) throws DAOException {
+		try {
+			Session session = getSession();
+			Product product = (Product) session.get(Product.class, productId);
+			return product;
+		} catch (HibernateException he) {
+			throw new DAOException(he);
+		}
+	}
+
+	@Override
+	public void updateProduct(Product product) throws DAOException {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteProduct(int productId) throws DAOException {
+		try {
+			Session session = getSession();
+			session.beginTransaction();
+			try {
+				Product product = new Product();
+				product.setProductId(productId);
+				session.delete(product);
+
+				session.getTransaction().commit();
+			} catch (HibernateException he) {
+				session.getTransaction().rollback();
+				throw new DAOException(he);
+			}
+			session.close();
+		} catch (HibernateException he) {
+			throw new DAOException(he);
+		}
+	}
+
+	@Override
+	public List<Product> getAllProducts() throws DAOException {
+		try {
+			String hql = "from Product";
+			Session session = getSession();
+			Query qry = session.createQuery(hql);
+
+			List<Product> list = qry.list();
+
+			return list;
+		} catch (HibernateException he) {
+			throw new DAOException(he);
+		}
+	}
+
+	@Override
+	public List<Product> getProductsByPrice(double min, double max)
+			throws DAOException {
+
+		try {
+			String hql="from Product where unitPrice between ? and ?";
+			Session session = getSession();
+			
+			Query qry = session.createQuery(hql);
+			qry.setDouble(0, min);
+			qry.setDouble(1, max);
+			
+			List<Product> list = qry.list();
+			
+			session.close();
+			return list;
+		} catch (HibernateException e) {
+			throw new DAOException(e);
+		}
+		
+		
+	}
+
+	@Override
+	public Category getCategory(int categoryId) throws DAOException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Category getAllCategory() throws DAOException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

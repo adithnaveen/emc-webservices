@@ -1,0 +1,49 @@
+package emc.bl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductImplementation implements ProductCatalog{
+
+	List<String> books = new ArrayList<String>();
+	List<String> music = new ArrayList<String>();
+	List<String> sports = new ArrayList<String>();
+	
+	public ProductImplementation(){
+		books.add("Let Us C");
+		books.add("Head First JAVA");
+		books.add("MongoDB Unleashed");
+		
+		music.add("Classical");
+		music.add("Carnatic");
+		music.add("Bollywood");
+		
+		sports.add("Hockey");
+		sports.add("Cricket");
+	}
+	
+	@Override
+	public boolean addProduct(int id, String name, String category) {
+		if(category.equals("books")){
+			return books.add(name);
+		}else if (category.equals("music")){
+			return music.add(name);
+		}else if(category.equals("sports")){
+			return sports.add(name);
+		}
+		return false;
+	}
+
+	@Override
+	public String getProduct(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<String> getAllProducts(String category) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

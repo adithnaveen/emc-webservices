@@ -1,0 +1,55 @@
+package emc.service;
+
+import java.io.FileInputStream;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.jws.WebService;
+import javax.xml.ws.soap.MTOM;
+
+import emc.model.Picture;
+
+@WebService(targetNamespace="http://serivce.emc/", 
+	name="PictureService")
+@MTOM
+public class PictureServiceImpl implements PictureService{
+
+	private Map<String, String> map;
+	
+	public PictureServiceImpl(){
+		map = new HashMap<String, String>();
+		map.put("dog", "/Users/naveenkumar/Desktop/images/dog.jpg");
+		map.put("mickey", "/Users/naveenkumar/Desktop/images/mickey.jpg");
+		map.put("barbie", "/Users/naveenkumar/Desktop/images/barbie.jpg");
+		map.put("jaguar", "/Users/naveenkumar/Desktop/images/jaguar.jpg");
+	}
+	@Override
+	public Picture getPicture(String shortName) {
+
+		if(map.containsKey(shortName)){
+			Picture picture = new Picture();
+			picture.setShortName(shortName);
+			String path = map.get(shortName);
+			picture.setPath(path);
+			
+			try{
+				FileInputStream file = new FileInputStream(path);
+				int size = file.available();
+				
+				byte [] bytes = new byte[size];
+				file.read(bytes);
+				file.close();
+				picture.setContent(bytes);
+				
+				return picture;
+			}catch(Exception e){
+				e.printStackTrace();
+			}
+			
+		}
+		
+		throw new RuntimeException("Sorry Image Name Not Matching...");
+		
+	}
+
+}

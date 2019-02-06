@@ -1,0 +1,10 @@
+package emc.jaxb2;
+
+import java.util.ArrayList;
+
+
+public class BookStore {
+
+	private ArrayList<Book> bookList;
+	
+}

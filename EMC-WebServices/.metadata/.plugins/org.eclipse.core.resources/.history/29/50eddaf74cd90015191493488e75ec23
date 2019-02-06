@@ -1,0 +1,5 @@
+package com.emc.businesslogic;
+
+public class ProductCatalogImpl {
+	
+}

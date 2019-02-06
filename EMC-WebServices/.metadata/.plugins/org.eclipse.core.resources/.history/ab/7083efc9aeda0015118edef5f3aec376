@@ -1,0 +1,7 @@
+package emc.jaxb;
+
+public class XMLToJava {
+	public static void main(String[] args) {
+		
+	}
+}

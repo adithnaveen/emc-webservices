@@ -1,0 +1,8 @@
+package emc.entity;
+
+import javax.xml.bind.annotation.XmlType;
+
+@XmlType(name="Product")
+public class Product {
+	
+}

@@ -1,0 +1,17 @@
+package com.emc.ws;
+
+import javax.jws.WebService;
+import javax.xml.ws.WebServiceContext;
+
+@WebService(endpointInterface="com.emc.ws.HelloUserAuth")
+public class HelloUserImpl implements HelloUserAuth{
+
+	WebServiceContext wsctx;
+	
+	@Override
+	public String getMyWork() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+}

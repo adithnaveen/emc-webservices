@@ -1,0 +1,5 @@
+package emc.jaxb;
+
+public class JAXBToXML {
+	
+}

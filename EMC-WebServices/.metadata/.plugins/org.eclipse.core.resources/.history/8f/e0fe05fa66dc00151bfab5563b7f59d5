@@ -1,0 +1,33 @@
+package com.emc;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class Program3 {
+	public static void main(String[] args) {
+		
+		String uri="http://localhost:8080/Rest-Work1/resources/message";
+		
+	}
+	
+	
+	private static String getFileContent(String fileName){
+		try {
+			FileInputStream fis = new FileInputStream(fileName);
+			int size = fis.available();
+			
+			byte[] bytes = new byte[size];
+			fis.read(bytes);
+			fis.close();
+			
+			return new String(bytes);
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			return null;
+		}
+	}
+	
+	
+}

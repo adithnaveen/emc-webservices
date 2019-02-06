@@ -1,0 +1,13 @@
+package com.emc.resource;
+
+
+@Path("/categories")
+public class CategoryResource {
+
+	private ProductDao dao;
+
+	@PostConstruct
+	public void init() {
+		dao = new HibernateProductDao();
+	}
+}

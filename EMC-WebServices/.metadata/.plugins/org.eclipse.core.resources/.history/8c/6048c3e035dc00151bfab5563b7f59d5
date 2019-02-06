@@ -1,0 +1,25 @@
+package com.emc.interfaces;
+
+import java.util.List;
+
+import com.emc.entity.Category;
+import com.emc.entity.Product;
+import com.emc.exception.DAOException;
+
+public interface ProductDAO {
+	// CRUD 
+		public void addProduct(Product product) throws DAOException;
+		public Product getOneProduct(int productId) throws DAOException;
+		public void updateProduct(Product product) throws DAOException;
+		public void deleteProduct(int productId) throws DAOException;
+
+		
+		// Queries we need
+		public List<Product> getAllProducts() throws DAOException;
+		public List<Product> getProductsByPrice(double min, double max)
+				throws DAOException;
+		public Category getCategory(int categoryId) throws DAOException;
+		public Category getAllCategory() throws DAOException;
+		
+		
+}

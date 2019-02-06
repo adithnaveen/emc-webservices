@@ -1,0 +1,6 @@
+package emc.port;
+
+
+public interface ProductServicePort {
+
+}

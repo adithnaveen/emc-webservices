@@ -1,0 +1,18 @@
+package emc.service;
+
+import javax.jws.WebService;
+import javax.xml.ws.soap.MTOM;
+
+import emc.model.Picture;
+
+@WebService
+@MTOM
+public class PictureServiceImpl implements PictureService{
+
+	@Override
+	public Picture getPicture(String shortName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

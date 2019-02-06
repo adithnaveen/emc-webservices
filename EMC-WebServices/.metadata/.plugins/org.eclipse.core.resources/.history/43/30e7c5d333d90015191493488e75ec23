@@ -1,0 +1,10 @@
+package com.emc.client;
+
+import com.emc.tempservice.TempConvert;
+import com.emc.tempservice.TempConvertSoap;
+
+public class TimeServer03 {
+	public static void main(String[] args) {
+		TempConvertSoap convertSoap = new TempConvert().getTempConvertSoap();
+	}
+}

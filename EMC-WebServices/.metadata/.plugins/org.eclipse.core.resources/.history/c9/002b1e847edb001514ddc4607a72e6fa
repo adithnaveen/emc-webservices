@@ -1,0 +1,17 @@
+package com.emc.interfaces;
+
+import com.emc.entity.Product;
+import com.emc.exception.DAOException;
+
+public interface ProductDAO {
+	// CRUD 
+		public void addProduct(Product product) throws DAOException;
+		public Product getOneProduct(int productId) throws DAOException;
+		public void updateProduct(Product product) throws DAOException;
+		public void deleteProduct(int productId) throws DAOException;
+
+		
+		// Queries we need
+		
+		
+}

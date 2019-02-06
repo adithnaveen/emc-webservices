@@ -1,0 +1,14 @@
+package com.emc.ws;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class AuthClient {
+	public static void main(String[] args) throws MalformedURLException {
+		URL url = new URL("http://localhost:8877/ws/auth?wsdl");
+		
+		
+		
+		
+	}
+}

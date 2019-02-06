@@ -1,0 +1,29 @@
+package com.emc.soapfault;
+
+import javax.jws.WebMethod;
+import javax.jws.WebParam;
+import javax.jws.WebResult;
+import javax.jws.WebService;
+import javax.xml.ws.Endpoint;
+
+@WebService
+public class CompanyInfo {
+	@WebMethod
+	@WebResult(partName="lookupOutput")
+	public String getCompanyInfo( @WebParam(partName="lookupInput") String property){
+		if(property.equals("emc")){
+			return "You are Allowed";
+		}
+		
+		// we one of two things either turn "", null,
+		// you can create a custome exception and throw 
+		
+		return "";
+	}
+	
+	
+	public static void main(String[] args) {
+		Endpoint.publish("http://localhost:5656/nav", new CompanyInfo());
+		System.out.println("Published.. ");
+	}
+}

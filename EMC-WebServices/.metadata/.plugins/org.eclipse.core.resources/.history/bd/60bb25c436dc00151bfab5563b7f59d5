@@ -1,0 +1,54 @@
+package com.emc.resource;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.annotation.PostConstruct;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+
+import com.emc.entity.Category;
+import com.emc.exception.DAOException;
+import com.emc.service.ProductDAOImpl;
+
+
+@Path("/categories")
+public class CategoryResource {
+
+	private ProductDAOImpl dao;
+
+	@PostConstruct
+	public void init() {
+		dao = new ProductDAOImpl();
+	}
+	
+	
+
+	@GET
+	@Produces("text/plain")
+	public String getAllCategoriesAsString() throws DAOException {
+		StringBuffer sb = new StringBuffer(1000);
+		for (Category c : dao.getAllCategory()) {
+			sb.append(c.getCategoryName() + ",");
+		}
+		String out = sb.toString();
+		return out;
+	}
+
+	@GET
+	@Produces({ "application/xml", "application/json" })
+	public List<Category> getAllCategories(
+			@QueryParam("id")Integer id) throws DAOException {
+		if(id==null){
+			return dao.getAllCategory()();
+		}
+		else{
+			List<Category> list = new ArrayList<>();
+			list.add(dao.getCategory(id));
+			return list;
+		}
+	}
+
+}

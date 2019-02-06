@@ -1,0 +1,12 @@
+package emc.bl;
+
+import java.util.List;
+
+import javax.jws.WebService;
+
+@WebService
+public interface ProductCatalog {
+	public boolean addProduct(int id, String name, String category);
+	public String getProduct(int id);
+	public List<String> getAllProducts(String category);
+}

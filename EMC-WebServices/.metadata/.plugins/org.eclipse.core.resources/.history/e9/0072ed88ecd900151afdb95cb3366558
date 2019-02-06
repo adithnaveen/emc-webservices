@@ -1,0 +1,52 @@
+package emc.bl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.jws.WebService;
+
+import emc.bean.Product;
+
+@WebService(name="ProductEMCService")
+public class ProductImplementation implements ProductCatalog{
+
+	List<Product> products = new ArrayList<Product>();
+	
+	public ProductImplementation(){
+		products.add(new Product(101, "let us c", "books"));
+		products.add(new Product(101, "let us c", "books"));
+		products.add(new Product(101, "let us c", "books"));
+		products.add(new Product(101, "let us c", "books"));
+	}
+	
+	@Override
+	public boolean addProduct(int id, String name, String category) {
+		if(category.equals("books")){
+			return books.add(name);
+		}else if (category.equals("music")){
+			return music.add(name);
+		}else if(category.equals("sports")){
+			return sports.add(name);
+		}
+		return false;
+	}
+
+	@Override
+	public String getProduct(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<String> getAllProducts(String category) {
+		if(category.equals("books")){
+			return books;
+		}else if (category.equals("music")){
+			return music;
+		}else if(category.equals("sports")){
+			return sports;
+		}
+		return null;
+	}
+	
+}

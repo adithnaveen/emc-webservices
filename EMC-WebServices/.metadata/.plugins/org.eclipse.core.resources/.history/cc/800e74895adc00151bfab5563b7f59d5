@@ -1,0 +1,21 @@
+package com.emc;
+
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+import javax.ws.rs.core.Response;
+
+public class Program2 {
+	public static void main(String[] args) {
+		Client client = ClientBuilder.newClient();
+		
+		String url="http://localhost:8080/Rest-Work1/resources/message";
+		
+
+		Response resp = client.target(url)
+//				.queryParam("messageId", "101")
+				.request().get();
+		
+		System.out.println("Response got is :");
+		System.out.println(resp.readEntity(String.class));
+	}
+}

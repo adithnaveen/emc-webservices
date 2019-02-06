@@ -1,0 +1,14 @@
+package com.naveen;
+
+public class Sample implements ISample {
+	/* (non-Javadoc)
+	 * @see com.naveen.ISample#hi()
+	 */
+	@Override
+	public void hi(){}
+	/* (non-Javadoc)
+	 * @see com.naveen.ISample#bye()
+	 */
+	@Override
+	public void bye(){}
+}

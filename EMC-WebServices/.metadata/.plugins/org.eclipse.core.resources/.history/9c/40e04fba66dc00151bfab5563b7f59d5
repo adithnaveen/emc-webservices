@@ -1,0 +1,16 @@
+package com.emc;
+
+public class Program3 {
+	public static void main(String[] args) {
+		
+		String uri="http://localhost:8080/Rest-Work1/resources/message";
+		
+	}
+	
+	
+	private static String getFileContent(String path){
+		
+	}
+	
+	
+}

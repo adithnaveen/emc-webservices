@@ -1,0 +1,9 @@
+package emc.jaxb;
+
+// program to store java object to XML file 
+public class JAXBToXML {
+	public static void main(String[] args) {
+		Customer cust = new Customer();
+		
+	}
+}

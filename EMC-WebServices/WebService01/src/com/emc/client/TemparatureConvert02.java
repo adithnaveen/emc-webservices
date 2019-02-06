@@ -1,0 +1,16 @@
+package com.emc.client;
+
+import com.emc.tempservice.TempConvert;
+import com.emc.tempservice.TempConvertSoap;
+
+public class TemparatureConvert02 {
+	public static void main(String[] args) {
+		TempConvertSoap convertSoap = new TempConvert().getTempConvertSoap();
+
+		System.out.println("28 Celsius In Fahraenheit : " 
+				+ convertSoap.celsiusToFahrenheit("28"));
+		
+		System.out.println("Farenheit 100 to Censius : "
+				+ convertSoap.fahrenheitToCelsius("100"));
+	}
+}

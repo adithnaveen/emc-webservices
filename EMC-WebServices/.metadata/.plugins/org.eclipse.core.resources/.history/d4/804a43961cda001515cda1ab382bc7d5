@@ -1,0 +1,13 @@
+package com.emc.soapfault;
+
+import javax.jws.WebService;
+
+@WebService
+public class CompanyInfo {
+	
+	public String getCompanyInfo(String property){
+		if(property.equals("emc")){
+			return "You are Allowed";
+		}
+	}
+}

@@ -1,0 +1,6 @@
+package com.naveen;
+
+public class Sample {
+	public void hi();
+	public void bye();
+}

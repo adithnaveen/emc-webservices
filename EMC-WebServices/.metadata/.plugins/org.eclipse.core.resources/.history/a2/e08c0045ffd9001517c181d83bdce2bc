@@ -1,0 +1,9 @@
+package com.emc.ws;
+
+import java.net.URL;
+
+public class AuthClient {
+	public static void main(String[] args) {
+		URL url = new URL("");
+	}
+}

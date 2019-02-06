@@ -1,0 +1,50 @@
+package emc.bl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.jws.WebService;
+
+import emc.bean.Product;
+
+@WebService(name="ProductEMCService")
+public class ProductImplementation implements ProductCatalog{
+
+	List<Product> products = new ArrayList<Product>();
+	
+	public ProductImplementation(){
+		products.add(new Product(101, "let us c", "books"));
+		products.add(new Product(102, "MongoDB Unleashed", "books"));
+		products.add(new Product(103, "Classical", "music"));
+		products.add(new Product(104, "Cricket", "sports"));
+	}
+	
+	@Override
+	public boolean addProduct(int id, String name, String category) {
+		return products.add(new Product(id, name, category));
+	}
+
+	@Override
+	public String getProduct(int id) {
+		for(Product temp : products){
+			if(temp.getId() == id){
+				return temp.toString();
+			}
+		}
+		
+		return "Product Not Found";
+	}
+
+	@Override
+	public List<String> getAllProducts(String category) {
+		if(category.equals("books")){
+			return books;
+		}else if (category.equals("music")){
+			return music;
+		}else if(category.equals("sports")){
+			return sports;
+		}
+		return null;
+	}
+	
+}

@@ -1,0 +1,5 @@
+package emc.client;
+
+public class DownloadPicture {
+
+}

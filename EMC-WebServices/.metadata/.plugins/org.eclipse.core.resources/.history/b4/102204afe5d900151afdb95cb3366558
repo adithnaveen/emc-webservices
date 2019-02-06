@@ -1,0 +1,6 @@
+package emc.bl;
+
+public interface ProductCatalog {
+	public boolean addProduct(String name, String category);
+	
+}

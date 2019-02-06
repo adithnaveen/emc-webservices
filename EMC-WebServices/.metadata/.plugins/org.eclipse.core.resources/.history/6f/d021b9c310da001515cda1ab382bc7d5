@@ -1,0 +1,8 @@
+package emc.service;
+
+import javax.jws.WebService;
+
+@WebService(targetNamespace="http://serivce.emc", name="PictureService")
+public interface PictureService {
+	
+}

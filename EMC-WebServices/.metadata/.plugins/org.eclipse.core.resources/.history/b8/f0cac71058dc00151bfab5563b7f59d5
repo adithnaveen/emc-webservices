@@ -1,0 +1,13 @@
+package com.emc;
+
+import javax.ws.rs.client.Client;
+import javax.ws.rs.client.ClientBuilder;
+
+public class Proguram01 {
+	public static void main(String[] args) {
+		Client client = ClientBuilder.newClient();
+		
+		String url="";
+		
+	}
+}

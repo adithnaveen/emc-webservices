@@ -1,0 +1,23 @@
+package com.emc;
+
+import java.util.List;
+
+import javax.jws.WebMethod;
+import javax.jws.WebService;
+
+import com.emc.businesslogic.ProductCatalogImpl;
+
+@WebService
+public class ProductCatalog {
+	
+	ProductCatalogImpl productCatalog = new ProductCatalogImpl();
+	
+	public List<String> getProducts(){
+		return productCatalog.getProducts();
+	}
+
+	@WebMethod(exclude=true)
+	public boolean addProduct(String productName){
+		return productCatalog.addProduct(productName);
+	}
+}

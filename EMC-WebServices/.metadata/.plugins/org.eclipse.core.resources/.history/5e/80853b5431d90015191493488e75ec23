@@ -1,0 +1,10 @@
+package com.emc.timeserver;
+
+import javax.xml.ws.Endpoint;
+
+public class TimeServerPublish {
+	public static void main(String[] args) {
+		String publishAddress = "http://127.0.0.1:9876/nav";
+		Endpoint.publish(publishAddress, implementor)
+	}
+}

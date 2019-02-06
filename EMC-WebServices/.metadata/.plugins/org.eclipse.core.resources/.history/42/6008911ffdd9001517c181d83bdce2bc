@@ -1,0 +1,6 @@
+package com.emc.ws;
+
+
+public class HelloUserImpl implements HelloUserAuth{
+
+}

@@ -1,0 +1,51 @@
+package com.emc.client;
+
+import java.net.URL;
+
+import javax.xml.namespace.QName;
+import javax.xml.ws.Service;
+
+import emc.entity.Product;
+import emc.entity.ProductList;
+import emc.port.ProductServicePort;
+
+public class GetProductsByCategory {
+
+	public static void main(String[] args) throws Exception {
+		
+		URL url = new URL("http://mybasket.vinod.co/products?wsdl");
+		
+		QName qname = new QName(
+			"http://mybasket.vinod.co/products", "products");
+		
+		Service service = Service.create(url, qname);
+		
+		ProductServicePort port = 
+			service.getPort(ProductServicePort.class);
+		
+		System.out.println("Got an instanceof " + port.getClass());
+		
+		ProductList list = port.getAllProducts();
+		for(Product p: list.getProducts()){
+			System.out.println(
+				p.getName()+ " --> Rs." + p.getUnitPrice() );
+		}
+
+		
+		System.out.println("++++++++++++++++++++++++++++++++++");
+		
+		
+		ProductList list1 = port.getProductsByCategory("vegitable");
+		for(Product p: list.getProducts()){
+			System.out.println(
+				p.getName()+ " --> Rs." + p.getUnitPrice() );
+		}
+		
+
+	}
+}
+
+
+
+
+

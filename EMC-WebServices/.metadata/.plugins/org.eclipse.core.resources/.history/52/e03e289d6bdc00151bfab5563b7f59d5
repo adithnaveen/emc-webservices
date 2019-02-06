@@ -1,0 +1,8 @@
+package com.emc.entity;
+
+public class Link {
+	private String uri;
+	private String rel;
+	
+	
+}

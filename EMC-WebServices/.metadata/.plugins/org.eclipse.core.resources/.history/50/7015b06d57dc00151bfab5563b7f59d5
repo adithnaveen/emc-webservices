@@ -1,0 +1,9 @@
+package com.emc;
+
+public class Proguram01 {
+	public static void main(String[] args) {
+		Client client;
+		
+		
+	}
+}

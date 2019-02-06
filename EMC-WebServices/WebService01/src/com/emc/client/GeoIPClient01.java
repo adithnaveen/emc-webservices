@@ -1,0 +1,19 @@
+package com.emc.client;
+
+import com.emc.geoipservice.GeoIP;
+import com.emc.geoipservice.GeoIPService;
+import com.emc.geoipservice.GeoIPServiceSoap;
+
+public class GeoIPClient01 {
+	public static void main(String[] args) {
+		String ipAddress ="66.220.156.68";
+		GeoIPService ipService = new GeoIPService();
+		
+		GeoIPServiceSoap geoIPServiceSoap = ipService.getGeoIPServiceSoap();
+		
+		GeoIP geoIp = geoIPServiceSoap.getGeoIP(ipAddress);
+
+		System.out.println("Country Code : "+ geoIp.getCountryCode());
+		System.out.println("Country Name : " +geoIp.getCountryName());
+	}
+}

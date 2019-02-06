@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;emc.jaxb2.BookStore.sellers&apos; in &apos;emc.jaxb2.BookStore&apos;&#x0A;- Original project: &apos;JAXB&apos;&#x0A;- Original element: &apos;emc.jaxb2.BookStore.sellers&apos;&#x0A;- Getter method name: &apos;getSellers&apos;&#x0A;- Setter method name: &apos;setSellers&apos;&#x0A;- Field visibility: &apos;public&apos;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;sellers&apos;" flags="589830" getter="getSellers" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;emc.jaxb2{BookStore.java[BookStore^sellers" insertion="5" setter="setSellers" stamp="1456291195718" version="1.0" visibility="1"/>
+</session>

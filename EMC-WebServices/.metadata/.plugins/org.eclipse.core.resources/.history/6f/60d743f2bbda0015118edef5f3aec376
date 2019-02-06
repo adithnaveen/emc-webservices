@@ -1,0 +1,7 @@
+package com.jaxm;
+
+public class SAAJ_Client {
+	public static void main(String[] args) {
+		
+	}
+}

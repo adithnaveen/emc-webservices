@@ -1,0 +1,10 @@
+package com.emc;
+
+import javax.ws.rs.client.Client;
+
+public class Proguram01 {
+	public static void main(String[] args) {
+		Client	
+		
+	}
+}

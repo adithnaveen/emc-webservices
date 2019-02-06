@@ -1,0 +1,7 @@
+package com.emc.ws;
+
+public class AuthClient {
+	public static void main(String[] args) {
+		
+	}
+}

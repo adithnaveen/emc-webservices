@@ -1,0 +1,77 @@
+package com.emc.service;
+
+import java.util.List;
+
+import org.hibernate.HibernateException;
+import org.hibernate.Session;
+import org.hibernate.cfg.Configuration;
+
+import com.emc.entity.Category;
+import com.emc.entity.Product;
+import com.emc.exception.DAOException;
+import com.emc.interfaces.ProductDAO;
+
+public class ProductDAOImpl implements ProductDAO{
+
+	
+	private Session getSession(){
+		return new Configuration().configure()
+				.buildSessionFactory().openSession();
+	} 
+	
+	
+	
+	@Override
+	public void addProduct(Product product) throws DAOException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Product getOneProduct(int productId) throws DAOException {
+		try{
+		Session session = getSession();
+		Product product = (Product) session.get(Product.class, productId);
+		return product;
+		}catch(HibernateException he){
+			throw new DAOException(he);
+		}
+	}
+
+	@Override
+	public void updateProduct(Product product) throws DAOException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void deleteProduct(int productId) throws DAOException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Product> getAllProducts() throws DAOException {
+		
+	}
+
+	@Override
+	public List<Product> getProductsByPrice(double min, double max)
+			throws DAOException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Category getCategory(int categoryId) throws DAOException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Category getAllCategory() throws DAOException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

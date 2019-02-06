@@ -1,0 +1,28 @@
+package emc.model;
+
+public class Picture {
+	private String shortName;
+	private String path;
+	private byte[] content;
+	
+	public String getShortName() {
+		return shortName;
+	}
+	public void setShortName(String shortName) {
+		this.shortName = shortName;
+	}
+	public String getPath() {
+		return path;
+	}
+	public void setPath(String path) {
+		this.path = path;
+	}
+	public byte[] getContent() {
+		return content;
+	}
+	public void setContent(byte[] content) {
+		this.content = content;
+	}
+	
+	
+}

@@ -1,0 +1,37 @@
+package com.jaxm;
+
+import java.io.FileOutputStream;
+
+import javax.xml.soap.MessageFactory;
+import javax.xml.soap.Name;
+import javax.xml.soap.SOAPBody;
+import javax.xml.soap.SOAPElement;
+import javax.xml.soap.SOAPEnvelope;
+import javax.xml.soap.SOAPMessage;
+
+public class SAAJ_Client {
+	public static void main(String[] args) throws Exception{
+		FileOutputStream file = new FileOutputStream("req.xml");
+		
+		MessageFactory mFactory = MessageFactory.newInstance();
+		
+		SOAPMessage msg = mFactory.createMessage();
+		
+		SOAPEnvelope envelop = msg.getSOAPPart().getEnvelope();
+		SOAPBody body = msg.getSOAPBody();
+		
+		Name operationElement = envelop.createName("getOneProduct", 
+				"x", "http://mybasket.vinod.co/products");
+		
+		SOAPElement oper = body.addChildElement(operationElement);
+		
+		Name idElemnt = envelop.createName("id");
+		SOAPElement id = oper.addChildElement(idElemnt);
+		
+		
+		
+		
+		
+		
+	}
+}

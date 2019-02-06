@@ -1,0 +1,12 @@
+package com.emc.client;
+
+import java.net.URL;
+
+public class TimeClient {
+	public static void main(String[] args) {
+		String wsdl ="http://127.0.0.1:9876/nav?WSDL";
+		URL url = new URL(wsdl);
+		
+		
+	}
+}

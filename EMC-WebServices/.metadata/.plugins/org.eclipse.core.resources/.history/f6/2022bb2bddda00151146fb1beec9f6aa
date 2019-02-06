@@ -1,0 +1,10 @@
+package com.emc.service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.emc.entity.Message;
+
+public class MessageService {
+	Map<Long, Message> messages = new HashMap<Long, Message>();
+}

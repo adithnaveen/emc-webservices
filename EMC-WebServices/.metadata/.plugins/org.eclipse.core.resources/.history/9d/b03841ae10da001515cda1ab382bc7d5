@@ -1,0 +1,6 @@
+package emc.service;
+
+
+public interface PictureService {
+
+}

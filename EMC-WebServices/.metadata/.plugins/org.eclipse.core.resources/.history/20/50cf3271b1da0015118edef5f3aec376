@@ -1,0 +1,15 @@
+package emc.jaxb2;
+
+import java.util.ArrayList;
+
+public class BookMain {
+	public static void main(String[] args) {
+		ArrayList<Book> booklist = new ArrayList<Book>();
+		
+		Book b1 = new Book();
+		b1.setIsbn("12112");
+		b1.setName("Let US C");
+		b1.setAuthor("Yahwanth Kanetkar");
+		b1.setPublisher("");
+	}
+}

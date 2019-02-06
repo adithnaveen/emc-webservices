@@ -1,0 +1,9 @@
+package emc.port;
+
+import javax.jws.WebService;
+
+@WebService(targetNamespace="http://mybasket.vinod.co/products", 
+		name="products")
+public interface ProductServicePort {
+
+}

@@ -1,0 +1,3 @@
+1456478906079	Encapsulate field 'links'
+1456479084602	Encapsulate field 'links'
+1456479375691	Extract method 'getUriForSelf'

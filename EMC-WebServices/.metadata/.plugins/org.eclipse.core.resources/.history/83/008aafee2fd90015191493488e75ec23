@@ -1,0 +1,24 @@
+package com.emc.timeserver;
+
+import java.util.Date;
+
+public class TimeServerImpl implements TimeServer {
+
+	@Override
+	public String getTimeAsString() {
+		return "Time is : " + new Date().toString()
+	}
+
+	@Override
+	public String getTimeFromServer() {
+		return "Time is " + new Date();
+	}
+
+	@Override
+	public String getTicketFare(String src, String dest) {
+		if(src.equalsIgnoreCase("blr") && dest.equalsIgnoreCase("del")){
+			
+		}
+	}
+	
+}

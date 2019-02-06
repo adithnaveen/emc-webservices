@@ -1,0 +1,8 @@
+package com.emc.entity;
+
+public class Message {
+	private int messageId;
+	private String msg;
+	priate String author; 
+
+}

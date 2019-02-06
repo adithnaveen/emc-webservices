@@ -1,0 +1,11 @@
+package com.emc.exception;
+
+public class DAOException {
+	public DAOException(){}
+	
+	public DAOException(String message){
+		super(message);
+	}
+	
+	
+}

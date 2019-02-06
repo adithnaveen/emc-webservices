@@ -1,0 +1,8 @@
+package emc.jaxb2;
+
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name="books")
+public class Book {
+	
+}

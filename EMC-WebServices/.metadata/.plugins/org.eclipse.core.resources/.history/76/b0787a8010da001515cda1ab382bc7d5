@@ -1,0 +1,9 @@
+package emc.model;
+
+public class Picture {
+	private String shortName;
+	private String path;
+	private byte[] content;
+	
+	
+}

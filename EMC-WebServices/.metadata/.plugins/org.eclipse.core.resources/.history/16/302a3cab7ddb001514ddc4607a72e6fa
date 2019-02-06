@@ -1,0 +1,21 @@
+package com.emc.entity;
+
+import javax.xml.bind.annotation.XmlAccessType;
+import javax.xml.bind.annotation.XmlAccessorType;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement
+@XmlAccessorType(XmlAccessType.FIELD)
+public class Product {
+	private int productId;
+	private String productName;
+	private int supplierId;
+	private String quantityPerUnit;
+	private double unitPrice;
+	private int unitsInStock;
+	private int unitsOnOrder;
+	private int reorderLevel;
+	private int discontinued;
+
+		
+}

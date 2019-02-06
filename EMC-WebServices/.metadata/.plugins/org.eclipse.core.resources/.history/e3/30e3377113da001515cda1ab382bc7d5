@@ -1,0 +1,13 @@
+package emc.client;
+
+import java.net.URL;
+
+public class DownloadPicture {
+	public static void main(String[] args) {
+		String wsdl = "http://localhost:3456/mtom?wsdl";
+		String nameSpace="http://service.emc/";
+		String serviceName= "PictureServiceImplService";
+		
+		URL url = new URL(wsdl);
+	}
+}
